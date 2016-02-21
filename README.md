@@ -2,7 +2,7 @@
 [![License GPLv3][badge-license]][license]
 [![Travis build status][badge-travis]][travis-build]
 
-Example of an Atmel Studio project for an ATmega328P with automated build on [Travis CI][travis-ci] or any other Linux-based system.
+Example of an Atmel Studio project for an ATmega328P with automated build on [Travis CI][travis-ci] (or any other Linux-based system).
 
 
 # Documentation
@@ -60,8 +60,8 @@ The license can be found in the `LICENSE` file.
 
 [badge-license]:        https://img.shields.io/badge/license-GPLv3-blue.svg
 [license]:              https://github.com/vidavidorra/AtmelStudio_Travis-CI_Example/blob/master/LICENSE
-[badge-travis]:         https://travis-ci.org/vidavidorra/BitOperations.svg
-[travis-build]:         https://travis-ci.org/vidavidorra/BitOperations
+[badge-travis]:         https://travis-ci.org/vidavidorra/AtmelStudio_Travis-CI_Example.svg
+[travis-build]:         https://travis-ci.org/vidavidorra/AtmelStudio_Travis-CI_Example
 [travis-ci]:            https://travis-ci.org
 [travis-getstarted]:    https://docs.travis-ci.com/user/getting-started
 [travis-docs]:          https://docs.travis-ci.com
