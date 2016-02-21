@@ -1,0 +1,23 @@
+language: c
+sudo: false
+
+# install dependencies
+addons:
+  apt:
+    packages:
+      - gcc-avr
+      - binutils-avr
+      - avr-libc
+
+install:
+  - avr-gcc --version
+  - make --version
+
+before_script:
+  - chmod +x convertASMakefileToUnix.sh
+  - ./convertASMakefileToUnix.sh AtmelStudio_Travis-CI_Example
+  - cd AtmelStudio_Travis-CI_Example/Debug
+  - mkdir src
+
+script:
+  - make
