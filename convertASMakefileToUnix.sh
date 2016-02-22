@@ -1,5 +1,5 @@
 #!/bin/sh
-#~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+################################################################################
 # 
 # Copyright (c) 2016  Jeroen de Bruijn  <vidavidorra@gmail.com>
 # 
@@ -16,10 +16,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-#~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-#title           : convertASMakefileToUnix.sh
-#date created    : 2016/02/20
-#notes           :
+################################################################################
+# Title         : convertASMakefileToUnix.sh
+# Date created  : 2016/02/20
+# Notes         :
 __AUTHOR__="Jeroen de Bruijn"
 __LICENSE__="GPLv3"
 __VERSION__="0.1.0"
@@ -39,8 +39,10 @@ __DESCRIPTION__=$__DESCRIPTION__"Toolchain for Linux."
 # This way it should be possible to build the project under Unix
 # (for example Ubuntu) using the Atmel AVR Toolchain for Linux.
 #
-#~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+################################################################################
 
+################################################################################
+##### Setup this script and run.                                           #####
 PROJECT_DIR=$1
 
 echo $__LICENSE_INFO__
